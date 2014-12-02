@@ -18,6 +18,7 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/etc/fstab.m7c:recovery/root/fstab.m7cdug \
+    $(LOCAL_PATH)/recovery/etc/lpm.rc:recovery/root/lpm.rc \
     $(LOCAL_PATH)/recovery/etc/init.recovery.m7c.rc:root/init.recovery.m7cdug.rc \
     $(LOCAL_PATH)/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
     $(LOCAL_PATH)/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
